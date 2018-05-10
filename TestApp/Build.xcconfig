@@ -1,0 +1,34 @@
+//
+//  Build.xcconfig
+//  TestApp
+//
+//  Created by fenglh on 2018/5/4.
+//  Copyright © 2018年 BlueMoon. All rights reserved.
+//
+
+
+CODE_SIGN_IDENTITY = iPhone Developer: Li Chao (BTTHBUB23E)
+PROVISIONING_PROFILE_SPECIFIER = dev_cn.com.bluemoon.sfa_20181227
+PROVISIONING_PROFILE = b0722f82-6bba-4285-9ea7-1e633d436ba0
+DEVELOPMENT_TEAM =
+
+ENABLE_BITCODE = NO
+CODE_SIGN_STYLE = Manual
+PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.sfa
+
+//:configuration = Debug
+
+//:configuration = Release
+
+//:configuration = Debug
+
+
+//:configuration = Release
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+
+//:completeSettings = none
+
+
+
+
+
